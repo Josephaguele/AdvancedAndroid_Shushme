@@ -194,6 +194,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         Log.i(TAG, "API Client Connection Successful");
     }
 
+
     @Override
     public void onConnectionSuspended(int cause) {
         Log.i(TAG, "API Client Connection Suspended");
